@@ -11,7 +11,7 @@
 }
 
 :root {
-    --color-bg: #1f1f38;
+    --color-bg: #151516;
     --color-bg-variant: #2c2c6c;
     --color-primart: #4db5ff;
     --color-primary-variant: rgba(77, 181, 255, 0.4);
@@ -34,4 +34,29 @@ html {
 body {
     font-family: 'Lato', sans-serif;
     font-family: 'Rubik', sans-serif;
+    background: var(--color-bg);
+    color: var(--color-white);
+    line-height: 2;
+    background-image: url(../src/assets/bg-texture.png);
+}
+
+.container {
+    width: var(--container-width-lg);
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+section {
+    margin-top: 8rem;
 }
